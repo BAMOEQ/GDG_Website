@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-
+//TODO: update, add router
 function App() {
   return (
     <div className="App"/>

@@ -1,0 +1,12 @@
+.gdg-video{
+    object-fit: cover;
+    width: 155%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+.mainPageWord{
+    text-align: center;
+    padding: 4rem 0;
+    background: lightblue;
+  }

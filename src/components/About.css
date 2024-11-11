@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'My Custom Font';
+  /* src: url('/fonts/MyCustomFont.ttf') format('truetype');  */
+  font-weight: bold;
+  font-style: normal;
+}
+
+.about-container {
+  font-family: 'My Custom Font', sans-serif;
+
+}
 .about-container {
     padding: 20px;
     max-width: 800px;
@@ -21,3 +32,29 @@
   ul li {
     margin: 10px 0;
   }
+
+  .card {
+    /* width: 300px;
+    height: 400px;  */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .card ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .card ul li {
+    margin-bottom: 10px; 
+  }
+  
+  .card i {
+    margin-right: 10px; 
+  }
+  
+
+ 

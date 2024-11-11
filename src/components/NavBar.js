@@ -1,32 +1,35 @@
-// imports: 
+// imports:
 
 import React from "react"; // import react
-import './Navbar.css'; // import styling
+import './NavBar.css'; // import styling
+import logoImage from '../assets/gdg_logo.png';
 
 // Navbar function
-const Navbar = () => {
+const NavBar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-left">
                 <a href="/" className="logo"> {/* add homepage destination. */}
-                    <img src="/" alt="GDG Logo (delete after adding location)." classname = "logo-image" />
+                    <img src={logoImage} alt="GDG Logo" classname = "logo-image" />
                 </a>
             </div>
             <div className="navbar-right">
                 <ul className="nav-links">
                     <li>
-                        <a href="/">About Us</a>{/* add "About Us" page destination. */}
+                        <a href="/about">About Us</a>
                     </li>
                     <li>
-                        <a href="/">Events</a>{/* add "Events" page destination. */}
+                        <a href="/contact">Our Team</a>{/* add "Contact" destination. */}
                     </li>
                     <li>
-                        <a href="/">Projects</a>{/* add "Projects" page destination. */}
+                        <a href="/events">Events</a>{/* add "Events" page destination. */}
                     </li>
                     <li>
-                        <a href="/">Contact</a>{/* add "Contact" destination. */}
+                        <a href="/projects">Projects</a>{/* add "Projects" page destination. */}
                     </li>
-                    {/* Think of more NavBar pages to include.*/}
+                    <li>
+                        <a href="/contact">Contact</a>{/* add "Contact" destination. */}
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -34,4 +37,4 @@ const Navbar = () => {
 }
 
 // export
-export default Navbar;
+export default NavBar;

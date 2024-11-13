@@ -4,6 +4,7 @@ import About from './components/About/About';
 import Navbar from './components/NavBar/NavBar';
 import HomePage from './components/HomePage/HomePage';
 import Footer from './components/Footer/Footer';
+import Events from './components/Events/Events';
 
 import './App.css';
 
@@ -16,7 +17,7 @@ const App = () => {
                   <Routes>
                       <Route path="/" element={<HomePage />} />
                       <Route path="/about" element={<About />} />
-                      {/*<Route path="/contact" element={<Contact />} />*/}
+                      <Route path="/events" element={<Events />} />
                   </Routes>
               </div>
               <Footer/>

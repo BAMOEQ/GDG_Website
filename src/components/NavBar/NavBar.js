@@ -22,7 +22,7 @@ const NavBar = () => {
                         <a href="/contact">Our Team</a>{/* add "Contact" destination. */}
                     </li>
                     <li>
-                        <a href="/events">Events</a>{/* add "Events" page destination. */}
+                        <a href="/events">Events</a>
                     </li>
                     <li>
                         <a href="/projects">Projects</a>{/* add "Projects" page destination. */}

@@ -2,7 +2,7 @@
 
 import React from "react"; // import react
 import './NavBar.css'; // import styling
-import logoImage from '../assets/gdg_logo.png';
+import logoImage from '../../assets/gdg_logo.png';
 
 // Navbar function
 const NavBar = () => {

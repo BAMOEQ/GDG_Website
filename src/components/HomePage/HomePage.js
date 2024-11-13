@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css';
-import GdgVideo from '../assets/GDG23_Intro_05.mp4'
+import GdgVideo from '../../assets/GDG23_Intro_05.mp4'
 
 function HomePage() {
   return (

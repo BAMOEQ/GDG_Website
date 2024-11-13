@@ -7,7 +7,7 @@ function events() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Wowow so cool and fun
+          Check out our events!
         </p>
         <a
           className="App-link"

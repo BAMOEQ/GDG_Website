@@ -1,16 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-<<<<<<< HEAD
 import About from './components/About/About';
 import Navbar from './components/NavBar/NavBar';
 import HomePage from './components/HomePage/HomePage';
 import Footer from './components/Footer/Footer';
-=======
-import About from './components/About';
-import Navbar from './components/NavBar';
-import HomePage from './components/HomePage';
-//import Footer from './components/Footer';
->>>>>>> 96fd03e5183cf96c34f150eff145a8602122a50e
+
 import './App.css';
 
 const App = () => {
@@ -25,6 +19,7 @@ const App = () => {
                       {/*<Route path="/contact" element={<Contact />} />*/}
                   </Routes>
               </div>
+              <Footer/>
           </div>
       </Router>
   );

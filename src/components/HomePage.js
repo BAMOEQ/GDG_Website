@@ -5,20 +5,23 @@ import GdgVideo from '../assets/GDG23_Intro_05.mp4'
 function HomePage() {
   return (
     <div className="hero-page">
-    {/* Header Section */}
-    <header className="hero-header">
-        <h1>Google Developers Group @ NYU </h1>
-        <video src={GdgVideo} alt="GDG Vid" className="gdg-video" autoPlay="true" muted="true"/>
-        <p></p>
-    </header>
+    {/* Hero Section */}
+    <section className="hero-header">
+        <div className="video-container">
+            <video src={GdgVideo} className="gdg-video" autoPlay muted loop></video>
+            <div className="hero-content">
+                <h1>Welcome to Google Developers Group @ NYU</h1>
+                <p>Connecting developers, designers, and tech enthusiasts at NYU to grow, learn, and innovate together.</p>
+                <div className="hero-buttons">
+                    <button className="hero-button">Learn More</button>
+                    <button className="hero-button">Our Events</button>
+                    <button className="hero-button">Join Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
-    {/* Button Section */}
-      <div className="hero-buttons">
-        <button className="hero-button">Learn More</button>
-        <button className="hero-button">Our Events</button>
-        <button className="hero-button">Join Us</button>
-      </div>
-    </div>
   );
 }
 

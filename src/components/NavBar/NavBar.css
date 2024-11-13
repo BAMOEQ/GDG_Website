@@ -21,8 +21,8 @@
 
 /* Style for the logo image inside the logo class in navBar-left*/
 .logo-image {
-    height: 70px;
-    width: auto;
+    max-width: 15%;
+    height: auto;
     object-fit: contain; /* Ensure the logo is properly scaled without distortion */
     margin-left: 10px; /* Add some space to the left of the image */
 }
@@ -40,6 +40,7 @@
 /* Style for the right section of the navBar */
 .navbar-right .nav-links a {
     color: #000000;
+    text-decoration: none;
 }
 
 .navbar-right .nav-links a:hover {

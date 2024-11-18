@@ -34,11 +34,10 @@ const Footer = () => {
         </div>
         <div className="footer-center">
           <p> <a href="/about">About Us</a></p>
-          <p><a href="/apply">Apply</a></p>
+          <p> <a href="/ourteam">Our Team</a></p>
+          <p> <a href="/events">Events</a></p>
           <p><a href="/projects">Projects</a></p>
-          <p><a href="/faqs">FAQ's</a></p>
           <p><a href="/contact">Contact</a></p>
-          <p><a href="/newsletter">Newsletter</a></p>
         </div>
         <div className="footer-right">
           <a href="https://developers.google.com/">

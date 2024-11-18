@@ -17,6 +17,9 @@ def events():
     events = [{'id': 1, 'title': 'Python Workshop', 'date': '2021-08-01', 'location': 'Leslie E-lab'}, {'id': 2, 'title': 'JavaScript Workshop', 'date': '2021-08-02', 'location': 'Leslie E-lab'}]
     return jsonify(events)
 
+# add the officers route
+@app.route('/api/officers', methods=['GET'])
+
 
 
 if __name__ == '__main__':

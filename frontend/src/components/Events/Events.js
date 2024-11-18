@@ -4,13 +4,13 @@ import React, { useEffect, useState } from 'react';
 function Events() {
   const [events, setEvents] = useState([]);
   useEffect(() => { 
-    fetch('http:127.0.0.1:5000/events')
+    fetch('http://127.0.0.1:5000/api/events')
     .then(response => {
       if(response.ok) {
         return response.json();
       }
       else {
-        console.log("Error fetching data baout events");
+        console.log("Error fetching data about events");
       }
 
     })
@@ -30,8 +30,8 @@ function Events() {
             return (
               <li key={event.id}> 
                 <h2>{event.title}</h2>
-                <p>{event.description}</p>
                 <p>{event.date}</p>
+                <p>{event.location}</p>
               </li>
             )
           })}

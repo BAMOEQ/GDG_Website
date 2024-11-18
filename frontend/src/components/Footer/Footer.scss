@@ -1,0 +1,110 @@
+// Variables for reusable colors and values
+$footer-bg-color: #ffffff;
+$footer-text-color: #333;
+$primary-color: #f4b400;  // Hover color for links
+$font-family: 'Arial', sans-serif;
+$img-hover-scale: 1.1;
+$img-grayscale: 90%;
+$img-brightness: 75%;
+
+// Base Footer Styles
+.footer {
+  background-color: $footer-bg-color;
+  color: $footer-text-color;
+  padding: 20px 0;
+  text-align: center;
+  font-family: $font-family;
+  bottom: 0;
+  margin-top: auto;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    .footer-left, .footer-center, .footer-right {
+      flex: 1;
+      padding: 10px;
+    }
+  }
+
+  .footer-left {
+    text-align: left;
+
+    img {
+      max-width: 50px;
+      max-height: 100px;
+      margin-bottom: -30px;
+    }
+
+    h4 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #212121;
+    }
+
+    p {
+      font-size: 14px;
+      color: #555;
+    }
+  }
+
+  .footer-center {
+    text-align: center;
+
+    p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #212121;
+      font-weight: 500;
+      &:hover {
+        color: #4285f4; //TODO: figure out color scheme
+      }
+    }
+  }
+
+  .footer-right {
+    text-align: right;
+
+    a {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+      transition: transform 0.3s, filter 0.3s ease;
+      filter: grayscale($img-grayscale) brightness($img-brightness);
+
+      &:hover {
+        transform: scale($img-hover-scale);
+        filter: grayscale(0%) brightness(100%);
+      }
+    }
+  }
+}
+
+// Media Queries
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left, .footer-center, .footer-right {
+    flex: 0;
+    padding: 10px 0;
+  }
+
+  .footer-right a {
+    margin: 0 10px;
+  }
+}

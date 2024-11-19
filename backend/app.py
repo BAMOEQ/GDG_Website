@@ -19,8 +19,9 @@ def events():
 
 # add the officers route
 @app.route('/api/officers', methods=['GET'])
-
-
+def officers():
+    officers = [{'id': 1, 'name': 'Grace Hopper', 'position': 'President'}, {'id': 2, 'name': 'Ada Lovelace', 'position': 'Vice President'}]
+    return jsonify(officers)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -5,6 +5,7 @@ import Navbar from './components/NavBar/NavBar';
 import HomePage from './components/HomePage/HomePage';
 import Footer from './components/Footer/Footer';
 import Events from './components/Events/Events';
+import Contact from './components/Contact/Contact';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ const App = () => {
                       <Route path="/" element={<HomePage />} />
                       <Route path="/about" element={<About />} />
                       <Route path="/events" element={<Events />} />
+                      <Route path="/contact" element={<Contact />} />
                   </Routes>
               </div>
               <Footer/>

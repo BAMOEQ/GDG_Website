@@ -20,15 +20,37 @@
 
 .hero-content {
   position: absolute;
-  bottom: 20px; /* Adjust based on how close to the bottom you want */
-  width: 100%;
+  bottom: 20px; 
   text-align: center;
   color: white;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.4); /* Optional overlay for readability */
+  background: rgba(0, 0, 0, 0.4); 
   box-sizing: border-box;
 }
 
 .hero-buttons {
   margin-top: 20px;
+}
+
+.hero-button {
+  padding: 15px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #ea4335; 
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0g, 0, 0, 0.3); 
+  transition: all 0.3s ease; 
+}
+
+.hero-button:hover {
+  transform: scale(1.1); 
+  box-shadow: #f28b82;
+}
+
+.hero-button:active {
+  transform: scale(0.95); 
 }

@@ -1,0 +1,43 @@
+/* Container styling */
+.member-card {
+    width: 300px; /* Adjust size later */
+    text-align: center;
+    border: 1px solid #ddd; /* Adjust the color later */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background-color: white;
+    position: relative;
+}
+
+/* Background image styling */
+.card-background img {
+    width: 100%;
+    height: auto;
+}
+
+/* Content styling */
+.card-content {
+    padding: 15px;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    margin-top: -40px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Name styling */
+.member-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333; /* Adjust the color later */
+}
+
+/* Title styling */
+.member-title {
+    font-size: 14px;
+    color: #007bff; /* Adjust the color later */
+    margin: 5px 0 0;
+}

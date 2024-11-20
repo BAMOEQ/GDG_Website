@@ -1,14 +1,35 @@
 
 .hero-content {
   position: absolute;
+  left: 0; 
+  right: 0; 
   bottom: 20px; 
   text-align: center;
   color: white;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.4); 
+  background: #00000066; 
   box-sizing: border-box;
 }
+.video-container {
+  position: relative; 
+  width: 100vw; 
+  height: 100vh; 
+  overflow: hidden; 
+  background-color: black;
+}
 
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%; /* Ensures the video covers the width */
+  min-height: 100%; /* Ensures the video covers the height */
+  width: auto; /* Allows aspect ratio to adjust */
+  height: auto; /* Allows aspect ratio to adjust */
+  object-fit: cover; /* Ensures proper scaling */
+  overflow: hidden;
+}
 .hero-buttons {
   margin-top: 20px;
 }

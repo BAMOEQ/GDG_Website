@@ -8,7 +8,9 @@ function HomePage() {
     {/* Hero Section */}
     <section className="hero-header">
         <div className="video-container">
+            <div className="video">
             <video src={GdgVideo} className="gdg-video" autoPlay muted loop></video>
+            </div>
             <div className="hero-content">
                 <h1>Welcome to Google Developers Group @ NYU</h1>
                 <p>Connecting developers, designers, and tech enthusiasts at NYU to grow, learn, and innovate together.</p>

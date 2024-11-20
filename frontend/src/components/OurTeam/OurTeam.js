@@ -3,7 +3,6 @@ import './OurTeam.css'; // import styling
 import back_card from '../../assets/back_card';
 import headshot from '../../assests/head_shot';
 
-// ourteam function with dynamic name, title, and image
 // Consider making name, title, and image later the dynamic part later
 const ourteam = () => {
     return (

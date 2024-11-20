@@ -1,23 +1,24 @@
 import React from "react"; // import react
 import './OurTeam.css'; // import styling
 import back_card from '../../assets/back_card';
+import headshot from '../../assests/head_shot';
 
 // ourteam function with dynamic name, title, and image
 // Consider making name, title, and image later the dynamic part later
-const ourteam = (name, title, image) => {
+const ourteam = () => {
     return (
-        <nav className="ourteam">
-            <div className="card">
-                {/*Should it be an individual page or inside about us */}
-                <a href="/ourteam" className="logo">
-                    <img src={back_card} alt={`${name}'s Card`} />
-                        <h3>{name}</h3>
-                    <p>{title}</p>
-                </a>
+        <div className="ourteam-container">
+            <div classname="greet">
+                <h2>Meet the Team</h2>
             </div>
-        </nav>
+            <div classname="card">
+                <img src={back_card} alt="Member's Card" classname="backcard"/>
+                <img src={headshot} alt="Headshot" className="headshot"/>
+                <h3 className="member-name">Member's Name</h3>
+                <p className="member-title">{"GDG Member"}</p>
+            </div>
+        </div>
     )
 }
 
-// export: needed if individual page
-export default NavBar;
+export default ourteam;

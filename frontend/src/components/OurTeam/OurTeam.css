@@ -1,43 +1,62 @@
-/* Container styling */
-.member-card {
-    width: 300px; /* Adjust size later */
+.ourteam-container {
     text-align: center;
-    border: 1px solid #ddd; /* Adjust the color later */
-    border-radius: 10px;
-    overflow: hidden;
+    padding: 20px;
+    background-color: #f9f9f9; /* Adjust later */
+    font-family: Arial, sans-serif; /* Adjust later */
+}
+
+.greet h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 400px; /* Size of the card */
+    background-color: #fff;
+    border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    background-color: white;
-    position: relative;
+    overflow: hidden;
+    text-align: center;
 }
 
-/* Background image styling */
-.card-background img {
+.name-card {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
-/* Content styling */
-.card-content {
-    padding: 15px;
-    background-color: white;
-    position: relative;
-    z-index: 10;
-    margin-top: -40px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+.headshot {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Name styling */
 .member-name {
-    font-size: 18px;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
     font-weight: bold;
-    margin: 0;
-    color: #333; /* Adjust the color later */
+    color: #fff;
 }
 
-/* Title styling */
 .member-title {
-    font-size: 14px;
-    color: #007bff; /* Adjust the color later */
-    margin: 5px 0 0;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    color: #fff;
 }

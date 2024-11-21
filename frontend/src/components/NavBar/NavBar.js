@@ -9,7 +9,7 @@ const NavBar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-left">
-                <a href="/" className="logo"> {/* add homepage destination. */}
+                <a href="/" className="logo">
                     <img src={logoImage} alt="GDG Logo" classname = "logo-image" />
                 </a>
             </div>
@@ -19,16 +19,16 @@ const NavBar = () => {
                         <a href="/about">About Us</a>
                     </li>
                     <li>
-                        <a href="/contact">Our Team</a>{/* add "Contact" destination. */}
+                        <a href="/ourteam">Our Team</a>
                     </li>
                     <li>
                         <a href="/events">Events</a>
                     </li>
                     <li>
-                        <a href="/projects">Projects</a>{/* add "Projects" page destination. */}
+                        <a href="/projects">Projects</a>
                     </li>
                     <li>
-                        <a href="/contact">Contact</a>{/* add "Contact" destination. */}
+                        <a href="/contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -36,5 +36,4 @@ const NavBar = () => {
     )
 }
 
-// export
 export default NavBar;

@@ -6,6 +6,7 @@ import HomePage from './components/HomePage/HomePage';
 import Footer from './components/Footer/Footer';
 import Events from './components/Events/Events';
 import Contact from './components/Contact/Contact';
+import OurTeam from './components/OurTeam/OurTeam';
 
 import './App.css';
 
@@ -18,8 +19,9 @@ const App = () => {
                   <Routes>
                       <Route path="/" element={<HomePage />} />
                       <Route path="/about" element={<About />} />
-                      <Route path="/events" element={<Events />} />
+                      <Route path="/events" element={<Events />} />                      
                       <Route path="/contact" element={<Contact />} />
+                      <Route path="/ourteam" element={<OurTeam />} />
                   </Routes>
               </div>
               <Footer/>

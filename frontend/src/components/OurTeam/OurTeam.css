@@ -1,46 +1,56 @@
 .ourteam-container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 20px;
-    background-color: #f9f9f9; /* Adjust later */
-    font-family: Arial, sans-serif; /* Adjust later */
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .greet h2 {
+    text-align: left;
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #333;
 }
 
 .card {
     position: relative;
-    display: inline-block;
+    display: flex;
     width: 300px;
-    height: 400px; /* Size of the card */
+    height: 400px;
     background-color: #fff;
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    text-align: center;
+    margin-top: 20px;
+    margin-right: 40px;
 }
 
-.name-card {
+.backcard {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
+    height: 77%; /* Adjust later */
+    max-width: 400px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .headshot {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 3px solid white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
+    width: 200px; /* Adjust the size of the headshot */
+    height: 200px;
+    border-radius: 50%; /* Make the headshot circular */
+    position: absolute; /* Position it inside the backcard */
+    top: 40%; /* Position it at the vertical center */
+    left: 50%; /* Position it at the horizontal center */
+    transform: translate(-50%, -50%); /* Offset to make it exactly centered */
+    border: 3px solid white; /* Optional: adds a border around the headshot */
+  }
 
 .member-name {
     position: absolute;
@@ -49,7 +59,7 @@
     transform: translateX(-50%);
     font-size: 1.2rem;
     font-weight: bold;
-    color: #fff;
+    color: #000;
 }
 
 .member-title {
@@ -58,5 +68,5 @@
     left: 50%;
     transform: translateX(-50%);
     font-size: 1rem;
-    color: #fff;
+    color: #4285f4;
 }

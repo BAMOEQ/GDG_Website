@@ -1,0 +1,25 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 16px; /* Spacing between photos */
+    padding: 16px;
+    max-width: 100%;
+  }
+  
+  .photo-grid-item img {
+    width: 100%; /* Fit the grid item */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  }
+  
+  .photo-grid-item img:hover {
+    transform: scale(1.05); /* Add hover effect */
+    transition: transform 0.3s ease-in-out;
+  }
+  .blank-space {
+    background-color: transparent; /* Or any desired color */
+    border: 1px dashed #ccc; /* Optional: Add a dashed border to indicate a blank space */
+    height: 100%; /* Maintain grid size */
+    width: 100%;
+  }

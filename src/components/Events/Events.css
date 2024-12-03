@@ -6,7 +6,13 @@
     height: 40vmin;
     pointer-events: none;
   }
-  
+  .-header{
+    text-align: center;
+  }
+  .gdg-banner {
+    width: 1200px; /* Adjust to your desired size */
+    height: auto; /* Maintain aspect ratio */
+  }
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       animation: App-logo-spin infinite 20s linear;

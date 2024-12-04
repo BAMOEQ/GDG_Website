@@ -7,15 +7,15 @@
 
 .about-container {
   font-family: 'My Custom Font', sans-serif;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: auto;
+  margin: auto;
+  line-height: 1.6;
 }
-.about-container {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-    line-height: 1.6;
-  }
-  
   .about-container h1, .about-container h2 {
     color: #000000;
   }
@@ -33,28 +33,17 @@
     margin: 10px 0;
   }
 
-  .card {
-    /* width: 300px;
-    height: 400px;  */
+  .about-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 32rem;
+    height: auto;
+    padding: 1rem;
     background: white;
-    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
   }
-  
-  .card ul {
-    list-style-type: none; 
-    padding: 0;
-  }
-  
-  .card ul li {
-    margin-bottom: 10px; 
-  }
-  
-  .card i {
-    margin-right: 10px; 
-  }
-  
 
  

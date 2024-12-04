@@ -1,11 +1,32 @@
+@font-face {
+    font-family: 'My Custom Font';
+    /* src: url('/fonts/MyCustomFont.ttf') format('truetype');  */
+    font-weight: bold;
+    font-style: normal;
+  }
+
 .ourteam-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    background-color: #f9f9f9;
-    font-family: Arial, sans-serif;
+    padding: 1rem;
+    max-width: auto;
+    margin: auto;
+    line-height: 1.6;
+    font-family: 'My Custom Font', sans-serif;
 }
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: auto;
+    margin: auto;
+    line-height: 1.6;
+  }
 
 .cards-container {
     display: flex;

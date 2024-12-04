@@ -49,7 +49,7 @@ function Contact() {
             </p>
 
             {/* Contact Form */}
-            <div className="card">
+            <div className="contact-card">
                 <h2>Contact Us</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
@@ -95,13 +95,13 @@ function Contact() {
             </div>
 
             {/* Contact Information */}
-            <div className="card">
+            <div className="contact-footer-card">
                 <h2>Contact Information</h2>
                 <p>Email: <a href="mailto:gdsc.atnyu@gmail.com">gdsc.atnyu@gmail.com</a></p>
                 <p>Follow us on social media:</p>
                 <ul>
-                    <li> <a href="https://www.instagram.com/gdg_nyu/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                    <li><a href="https://www.linkedin.com/company/google-developer-groups-nyu/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <a href="https://www.instagram.com/gdg_nyu/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.linkedin.com/company/google-developer-groups-nyu/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </ul>
             </div>
         </div>

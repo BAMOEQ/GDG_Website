@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './Footer.scss';
 import { FaInstagram, FaYoutube, FaTwitter, FaLinkedin, FaGoogle } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const footerRef = useRef(null);

@@ -1,39 +1,74 @@
 .Events {
-    text-align: center;
+  text-align: center;
+}
+
+.Events-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Events-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Events-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .Events-logo {
-    height: 40vmin;
-    pointer-events: none;
+  to {
+    transform: rotate(360deg);
   }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .Events-header {
-    background-color:white;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .Events-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
+}
+
+/* Banner Styling */
+.gdg-banner {
+  width: 100%; /* Make it responsive */
+  max-width: 1200px; /* Limit the maximum width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add spacing below the banner */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(121, 110, 219, 0.1); /* Subtle shadow for depth */
+}
+
+/* Header Styling */
+.header {
+  text-align: center;
+  background: linear-gradient(to bottom, #f8f9fa, #ffffff); /* Light gray to white */
+  padding: 20px;
+}
+
+/* Header Container Styling */
+.header-container {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.gdg-title {
+  font-family: 'Roboto', sans-serif; /* Google font */
+  font-size: 2.5rem;
+  color: #ffffff; /* White text */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.3); /* Transparent black background */
+  display: inline-block;
+  border-radius: 8px; /* Rounded edges for the text block */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Elevated look */
+}
+
+/* Hover Effect for GDG Title */
+.gdg-title:hover {
+  background: rgba(0, 0, 0, 0.5); /* Darker background on hover */
+  transform: scale(1.05); /* Slight zoom */
+  transition: all 0.3s ease-in-out; /* Smooth animation */
+}

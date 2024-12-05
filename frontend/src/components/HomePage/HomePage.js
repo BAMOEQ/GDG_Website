@@ -15,9 +15,15 @@ function HomePage() {
                 <h1>Welcome to Google Developers Group @ NYU</h1>
                 <p>Connecting developers, designers, and tech enthusiasts at NYU to grow, learn, and innovate together.</p>
                 <div className="hero-buttons">
-                    <button className="hero-button">Learn More</button>
-                    <button className="hero-button">Our Events</button>
-                    <button className="hero-button">Join Us</button>
+                    <button className="hero-button">
+                        <a href="/about">Learn More</a>
+                    </button>
+                    <button className="hero-button">
+                        <a href="/events">Our Events</a>
+                    </button>
+                    <button className="hero-button">
+                        <a href="/contact">Join Us</a>
+                    </button>
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@ import './OurTeam.css'; // import styling
 import backcard from '../../assets/back_card.png';
 import headshot from '../../assets/head_shot.png';
 
-// Consider making name, title, and image later the dynamic part later
+// TODO: Consider making name, title, and image later the dynamic part later
 const OurTeam = () => {
     return (
         <div className="ourteam-container">

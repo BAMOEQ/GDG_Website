@@ -40,19 +40,19 @@ const Footer = () => {
         </div>
         <div className="footer-right">
           <a href="https://developers.google.com/">
-            <FaGoogle size={30} />
+            <FaGoogle size={30} color="#4285f4" />
           </a>
           <a href="https://www.instagram.com/gdg_nyu/">
-            <FaInstagram size={30} />
+            <FaInstagram size={30} color="#4285f4"  />
           </a>
           <a href="https://www.youtube.com/gdgs">
-            <FaYoutube size={30} />
+            <FaYoutube size={30} color="#4285f4" />
           </a>
           <a href="https://x.com/googledevgroups">
-            <FaTwitter size={30} />
+            <FaTwitter size={30} color="#4285f4"  />
           </a>
           <a href="https://www.linkedin.com/company/google-developer-groups-nyu/">
-            <FaLinkedin size={30} />
+            <FaLinkedin size={30} color="#4285f4"  />
           </a>
         </div>
       </div>

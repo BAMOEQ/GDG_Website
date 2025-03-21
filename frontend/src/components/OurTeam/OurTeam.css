@@ -5,6 +5,16 @@
     font-style: normal;
   }
 
+  .team-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.team-name {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
 .ourteam-container {
     display: flex;
     justify-content: center;

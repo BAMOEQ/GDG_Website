@@ -25,7 +25,8 @@ def officers():
             'id': 1, 
             'name': 'Grace He', 
             'position': 'President',
-            'team': 'Leadership'
+            'team': 'Leadership',
+            'image': '/images/He_Grace.jpg'
         }, 
         {
             'id': 2, 

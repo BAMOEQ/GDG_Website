@@ -20,7 +20,104 @@ def events():
 # add the officers route
 @app.route('/api/officers', methods=['GET'])
 def officers():
-    officers = [{'id': 1, 'name': 'Grace Hopper', 'position': 'President'}, {'id': 2, 'name': 'Ada Lovelace', 'position': 'Vice President'}]
+    officers = [
+        {
+            'id': 1, 
+            'name': 'Grace He', 
+            'position': 'President',
+            'team': 'Leadership'
+        }, 
+        {
+            'id': 2, 
+            'name': 'Shubhi Upadhyay', 
+            'position': 'Vice President',
+            'team': 'Leadership'
+        },
+        {
+            'id': 3, 
+            'name': 'Tony Liu', 
+            'position': 'Secretary',
+            'team': 'Leadership'
+        },
+        {
+            'id': 4, 
+            'name': 'Andrew Kim', 
+            'position': 'Treasurer',
+            'team': 'Leadership'
+        },
+        {
+            'id': 5, 
+            'name': 'Vishnu Kommuri', 
+            'position': 'Tech Lead',
+            'team': 'Collab'
+        },
+        {
+            'id': 6, 
+            'name': 'Henry Yuan', 
+            'position': 'Tech Lead',
+            'team': 'Collab'
+        },
+        {
+            'id': 7, 
+            'name': 'Aryan Chaudhary', 
+            'position': 'Tech Lead',
+            'team': 'Collab'
+        },
+        {
+            'id': 8, 
+            'name': 'Venetia Liu', 
+            'position': 'Marketing Lead',
+            'team': 'Marketing Co-Lead'
+        },
+        {
+            'id': 9, 
+            'name': 'Helen Zhou', 
+            'position': 'Marketing Co-Lead',
+            'team': 'Marketing'
+        },
+        {
+            'id': 10, 
+            'name': 'Haley Kim', 
+            'position': 'Marketing Team',
+            'team': 'Marketing'
+        },
+        {
+            'id': 11, 
+            'name': 'Heloise Lu', 
+            'position': 'Marketing Team',
+            'team': 'Marketing'
+        },
+        {
+            'id': 12, 
+            'name': 'Clarissa Choi', 
+            'position': 'Event Coordinator',
+            'team': 'Events'
+        },
+        {
+            'id': 13, 
+            'name': 'Hailey Kim', 
+            'position': 'Event Coordinator',
+            'team': 'Events'
+        },
+        {
+            'id': 14, 
+            'name': 'Belle Mbaezue', 
+            'position': 'Event Coordinator',
+            'team': 'Events'
+        },
+        {
+            'id': 15, 
+            'name': 'Reva Sharma', 
+            'position': 'Event Coordinator',
+            'team': 'Events'
+        },
+        {
+            'id': 16, 
+            'name': 'Thomas Wang', 
+            'position': 'Event Coordinator',
+            'team': 'Events'
+        }
+    ]
     return jsonify(officers)
 
 if __name__ == '__main__':

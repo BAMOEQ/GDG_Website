@@ -75,7 +75,7 @@
 
 .member-name {
     position: absolute;
-    bottom: 60px;
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.2rem;
@@ -85,7 +85,7 @@
 
 .member-title {
     position: absolute;
-    bottom: 30px;
+    bottom: 5px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1rem;

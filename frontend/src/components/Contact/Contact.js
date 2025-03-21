@@ -44,8 +44,7 @@ function Contact() {
 
             {/* Description */}
             <p className="description">
-                Contact our team directly via <a href="mailto:gdsc.atnyu@gmail.com">gdsc.atnyu@gmail.com</a> 
-                or complete the form provided below.
+                Contact our team directly via <a href="mailto:gdsc.atnyu@gmail.com">gdsc.atnyu@gmail.com</a>&nbsp;or complete the form provided below.
             </p>
 
             {/* Contact Form */}

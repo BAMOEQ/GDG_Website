@@ -38,7 +38,15 @@ const OurTeam = () => {
                         {groupedOfficers[team].map((officer) => (
                             <div className="card" key = {officer.id}>
                                 <img src={backcard} alt="Member's Card" className="backcard"/>
-                                <img src={headshot} alt="Headshot" className="headshot"/>
+                                <img 
+                                    src={officer.image ? officer.image : "/images/default.png"} 
+                                    alt={`${officer.name}'s Headshot`} 
+                                    className="headshot"
+                                    onError={(e) => { 
+                                        e.target.onerror = null; 
+                                        e.target.src = "/images/default.png";
+                                    }} 
+                                />
                                 <h3 className="member-name">{officer.name}</h3>
                                 <p className="member-title">{officer.position}</p>
                             </div>

@@ -48,26 +48,26 @@ def officers():
         {
             'id': 5, 
             'name': 'Vishnu Kommuri', 
-            'position': 'Tech Lead',
-            'team': 'Collab'
+            'position': 'Program Lead',
+            'team': 'COLLAB'
         },
         {
             'id': 6, 
             'name': 'Henry Yuan', 
-            'position': 'Tech Lead',
-            'team': 'Collab'
+            'position': 'Program Lead',
+            'team': 'COLLAB'
         },
         {
             'id': 7, 
             'name': 'Aryan Chaudhary', 
-            'position': 'Tech Lead',
-            'team': 'Collab'
+            'position': 'Program Lead',
+            'team': 'COLLAB'
         },
         {
             'id': 8, 
             'name': 'Venetia Liu', 
             'position': 'Marketing Lead',
-            'team': 'Marketing Co-Lead'
+            'team': 'Marketing'
         },
         {
             'id': 9, 

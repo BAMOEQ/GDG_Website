@@ -35,7 +35,7 @@ const Footer = () => {
           <p> <a href="/about">About Us</a></p>
           <p> <a href="/ourteam">Our Team</a></p>
           <p> <a href="/events">Events</a></p>
-          <p><a href="/projects">Projects</a></p>
+          <p><a href="/Collab">Collab</a></p>
           <p><a href="/contact">Contact</a></p>
         </div>
         <div className="footer-right">

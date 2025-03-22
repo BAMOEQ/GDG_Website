@@ -17,6 +17,11 @@ def events():
     events = [{'id': 1, 'title': 'Python Workshop', 'date': '2021-08-01', 'location': 'Leslie E-lab'}, {'id': 2, 'title': 'JavaScript Workshop', 'date': '2021-08-02', 'location': 'Leslie E-lab'}]
     return jsonify(events)
 
+@app.route('/api/collab', methods=['GET'])
+def collab():
+    collab = [{'id': 1, 'title': 'Python Workshop', 'date': '2021-08-01', 'location': 'Leslie E-lab'}, {'id': 2, 'title': 'JavaScript Workshop', 'date': '2021-08-02', 'location': 'Leslie E-lab'}]
+    return jsonify(collab)
+
 # add the officers route
 @app.route('/api/officers', methods=['GET'])
 def officers():

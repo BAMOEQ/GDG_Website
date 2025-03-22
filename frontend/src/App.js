@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import Events from './components/Events/Events';
 import Contact from './components/Contact/Contact';
 import OurTeam from './components/OurTeam/OurTeam';
+import Collab from './components/Collab/Collab';
 
 import './App.css';
 
@@ -22,6 +23,7 @@ const App = () => {
                       <Route path="/events" element={<Events />} />                      
                       <Route path="/contact" element={<Contact />} />
                       <Route path="/ourteam" element={<OurTeam />} />
+                      <Route path="/collab" element={<Collab />} />
                   </Routes>
               </div>
               <Footer/>

@@ -22,7 +22,32 @@
     box-shadow: 0 4px 8px rgba(121, 110, 219, 0.1); /* Subtle shadow for depth */
 }
 
-.about-container {
+.button {
+  background-color: rgb(250, 171, 0); 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.collab_application {
+  background-color: white; 
+  color: rgb(250, 171, 0); 
+  border: 2px solid rgb(250, 171, 0);
+}
+
+.collab_application:hover {
+  background-color: rgb(250, 171, 0);
+  color: white;
+}
+
+/* .about-container {
   font-family: 'My Custom Font', sans-serif;
   display: flex;
   justify-content: center;
@@ -32,7 +57,7 @@
   max-width: auto;
   margin: auto;
   line-height: 1.6;
-}
+} */
 
 .about-card {
   display: flex;
@@ -45,8 +70,26 @@
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   margin: 20px 0;
+  text-align: left;
 }
 
-.about-container p {
-  margin-bottom: 15px;
+.projects {
+  font-family: 'My Custom Font', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 1rem; */
+  max-width: auto;
+  margin: auto;
+  /* line-height: 1.6; */
+
+  /* background-color: white;
+  min-height: 50vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
 }

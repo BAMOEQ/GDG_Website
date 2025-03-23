@@ -8,7 +8,7 @@ const OurTeam = () => {
     const [groupedOfficers, setGroupedOfficers] = useState({});
 
     useEffect (() => {
-        axios.get ('http://127.0.0.1:5000/api/officers')
+        axios.get ('http://127.0.0.1:5001/api/officers')
             .then(response => {
                 const officers = response.data;
                 const grouped = officers.reduce((acc, officer) => {

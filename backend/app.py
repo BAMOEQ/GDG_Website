@@ -37,43 +37,50 @@ def officers():
             'id': 2, 
             'name': 'Shubhi Upadhyay', 
             'position': 'Vice President',
-            'team': 'Leadership'
+            'team': 'Leadership',
+            'image': '/images/Upadhyay_Shubhi.jpg'
         },
         {
             'id': 3, 
             'name': 'Tony Liu', 
             'position': 'Secretary',
-            'team': 'Leadership'
+            'team': 'Leadership',
+            'image': '/images/Liu_Tony.jpg'
         },
         {
             'id': 4, 
-            'name': 'Andrew Kim', 
+            'name': 'Andrew Song', 
             'position': 'Treasurer',
-            'team': 'Leadership'
+            'team': 'Leadership',
+            'image': '/images/Song_Andrew.jpg'
         },
         {
             'id': 5, 
             'name': 'Vishnu Kommuri', 
             'position': 'Program Lead',
-            'team': 'COLLAB'
+            'team': 'COLLAB',
+            'image': '/images/Kommuri_Vishnu.jpg'
         },
         {
             'id': 6, 
             'name': 'Henry Yuan', 
             'position': 'Program Lead',
-            'team': 'COLLAB'
+            'team': 'COLLAB',
+            'image': '/images/Yuan_Henry.jpg'
         },
         {
             'id': 7, 
             'name': 'Aryan Chaudhary', 
             'position': 'Program Lead',
-            'team': 'COLLAB'
+            'team': 'COLLAB', 
+            'image': '/images/Chaudhary_Aryan.png'
         },
         {
             'id': 8, 
             'name': 'Venetia Liu', 
             'position': 'Marketing Lead',
-            'team': 'Marketing'
+            'team': 'Marketing',
+            'image': '/images/Liu_Venetia.jpeg'
         },
         {
             'id': 9, 
@@ -97,19 +104,22 @@ def officers():
             'id': 12, 
             'name': 'Clarissa Choi', 
             'position': 'Event Coordinator',
-            'team': 'Events'
+            'team': 'Events',
+            'image': '/images/Choi_Clarissa.png'
         },
         {
             'id': 13, 
             'name': 'Hailey Kim', 
             'position': 'Event Coordinator',
-            'team': 'Events'
+            'team': 'Events',
+            'image': '/images/Kim_Hailey.jpg'
         },
         {
             'id': 14, 
             'name': 'Belle Mbaezue', 
             'position': 'Event Coordinator',
-            'team': 'Events'
+            'team': 'Events',
+            'image': '/images/Mbaezue_Belle.jpeg'
         },
         {
             'id': 15, 
@@ -121,10 +131,11 @@ def officers():
             'id': 16, 
             'name': 'Thomas Wang', 
             'position': 'Event Coordinator',
-            'team': 'Events'
+            'team': 'Events',
+            'image': '/images/Wang_Thomas.jpeg'
         }
     ]
     return jsonify(officers)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5001, debug=True)

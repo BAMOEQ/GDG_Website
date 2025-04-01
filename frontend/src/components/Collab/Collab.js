@@ -11,7 +11,7 @@ function Collab(){
                 
                 <h1 style = {{color: '#333', marginBottom: '0px'}}>Fall 2025 Applications</h1>
                 <p style = {{color: '#555', font: '10px', marginTop: '5px'}}>Applications close [date]</p>
-                    <a href="https://forms.gle/Yz2Eh9UidniU8kFk7" class ="button collab_application" > Apply To Collab</a>
+                    <a href="https://forms.gle/Yz2Eh9UidniU8kFk7" class ="button collab_application" > <b>Apply to Collab</b></a>
                 
 
                 <div className='about-card'>

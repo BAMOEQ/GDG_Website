@@ -4,7 +4,7 @@
 
 This project is a full-stack website for managing and displaying information about the Google Developer Group (GDG) club @ NYU. The platform is built using React for the front end and Flask for the back end. It serves as a hub for club details, events, and resources.
 
-## ## 🚀 Features
+## 🚀 Features
 
 ✅ Club Information Hub – A centralized platform for club-related details.
 

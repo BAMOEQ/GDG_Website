@@ -34,7 +34,7 @@ function Collab(){
             </div>
 
             <div className="projects">
-                <h1 style={{color: '#333',fontSize: '30px'}}> Our Projects</h1>
+                <h1 style={{color: '#333',fontSize: '30px'}}> Check Out Our Past Projects! </h1>
             </div>
         </div>
     );

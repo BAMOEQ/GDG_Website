@@ -27,16 +27,6 @@
     font-family: 'My Custom Font', sans-serif;
 }
 
-.about-us-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
-    max-width: auto;
-    margin: auto;
-    line-height: 1.6;
-  }
 
 .card-container {
     display: flex;

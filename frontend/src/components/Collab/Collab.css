@@ -74,7 +74,7 @@
   text-align: left;
 }
 
-.projects {
+.projects-container {
   font-family: 'My Custom Font', sans-serif;
   display: flex;
   justify-content: center;
@@ -93,4 +93,116 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white; */
+}
+
+@font-face {
+  font-family: 'My Custom Font';
+  /* src: url('/fonts/MyCustomFont.ttf') format('truetype');  */
+  font-weight: bold;
+  font-style: normal;
+}
+
+.project-section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.project-name {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: auto;
+  margin: auto;
+  line-height: 1.6;
+  font-family: 'My Custom Font', sans-serif;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.project-header {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  width: 280px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backcard {
+  width: 100%;
+  height: 70%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.headshot {
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+  position: absolute; 
+  top: 40%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  border: 3px solid white; 
+  object-fit: cover;
+}
+
+.collab-name {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  max-width: 90%;
+  text-align: center; 
+  white-space: normal;  
+  word-wrap: break-word;
+}
+
+.collab-title {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  color: #4285f4;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card-container {
+      flex-direction: column;
+      align-items: center;
+  }
 }

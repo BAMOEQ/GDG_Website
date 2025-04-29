@@ -75,6 +75,7 @@ const Collab = () =>{
                                         />
                                         <h3 className="collab-name">{collab.name}</h3>
                                         <p className="collab-title">{collab.members}</p>
+                                        <p className="collab-about">{collab.about || "No description available."}</p>
                                     </div>
                                 ))}
                             </div>

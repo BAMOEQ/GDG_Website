@@ -48,7 +48,7 @@
   color: white;
 }
 
-/* .about-container {
+/* .project-container {
   font-family: 'My Custom Font', sans-serif;
   display: flex;
   justify-content: center;
@@ -114,26 +114,27 @@
 }
 
 .project-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 1rem;
-  max-width: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
   margin: auto;
-  line-height: 1.6;
+  padding: 1rem;
   font-family: 'My Custom Font', sans-serif;
 }
 
+
 .project-container {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
   max-width: 1200px;
   width: 100%;
   margin: auto;
+  justify-content: center;
 }
+
 .project-header {
   text-align: center;
   font-size: 2rem;
@@ -178,7 +179,7 @@
 
 .collab-name {
   position: absolute;
-  bottom: 25px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.2rem;
@@ -188,6 +189,8 @@
   text-align: center; 
   white-space: normal;  
   word-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .collab-title {
@@ -198,7 +201,13 @@
   font-size: 1rem;
   color: #4285f4;
 }
-
+.collab-about {
+  margin-top: auto;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+  text-align: center;
+}
 
 @media screen and (max-width: 768px) {
   .card-container {

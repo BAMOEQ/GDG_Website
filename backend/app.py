@@ -138,9 +138,16 @@ def collab():
     collab = [
         {
             'id': 1, 
-            'name': 'test', 
-            'about': 'test',
-            'year': 'test',
+            'name': 'CollabCode', 
+            'about': 'A VS code extension that allows live and collaborative coding',
+            'year': '2025',
+            'image': 'test'
+        },
+        {
+            'id': 2, 
+            'name': 'Dynamic Scheduler', 
+            'about': 'CollabCode',
+            'year': '2025',
             'image': 'test'
         },
     ] 

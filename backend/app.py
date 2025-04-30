@@ -146,7 +146,21 @@ def collab():
         {
             'id': 2, 
             'name': 'Dynamic Scheduler', 
-            'about': 'CollabCode',
+            'about': 'A smart scheduling tool that helps users manage their time more efficiently',
+            'year': '2025',
+            'image': 'test'
+        },
+        {
+            'id': 3, 
+            'name': 'Synced', 
+            'about': 'A web app that matches your music preferences with new songs',
+            'year': '2025',
+            'image': 'test'
+        },
+        {
+            'id': 4, 
+            'name': 'Video Semantic Search', 
+            'about': 'A tool that allows you to search for videos based on content',
             'year': '2025',
             'image': 'test'
         },

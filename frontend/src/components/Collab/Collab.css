@@ -180,17 +180,12 @@
 .collab-name {
   position: absolute;
   bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
   font-size: 1.2rem;
   font-weight: bold;
   color: #000;
-  max-width: 90%;
   text-align: center; 
   white-space: normal;  
   word-wrap: break-word;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .collab-title {

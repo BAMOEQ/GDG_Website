@@ -17,11 +17,6 @@ def events():
     events = [{'id': 1, 'title': 'Python Workshop', 'date': '2021-08-01', 'location': 'Leslie E-lab'}, {'id': 2, 'title': 'JavaScript Workshop', 'date': '2021-08-02', 'location': 'Leslie E-lab'}]
     return jsonify(events)
 
-@app.route('/api/collab', methods=['GET'])
-def collab():
-    collab = [{'id': 1, 'title': 'Python Workshop', 'date': '2021-08-01', 'location': 'Leslie E-lab'}, {'id': 2, 'title': 'JavaScript Workshop', 'date': '2021-08-02', 'location': 'Leslie E-lab'}]
-    return jsonify(collab)
-
 # add the officers route
 @app.route('/api/officers', methods=['GET'])
 def officers():
@@ -136,6 +131,42 @@ def officers():
         }
     ]
     return jsonify(officers)
+
+# projects route
+@app.route('/api/collab', methods=['GET'])
+def collab():
+    collab = [
+        {
+            'id': 1, 
+            'name': 'CollabCode', 
+            'about': 'A VS code extension that allows live and collaborative coding',
+            'year': '2025',
+            'image': 'test'
+        },
+        {
+            'id': 2, 
+            'name': 'Dynamic Scheduler', 
+            'about': 'A smart scheduling tool that helps users manage their time more efficiently',
+            'year': '2025',
+            'image': 'test'
+        },
+        {
+            'id': 3, 
+            'name': 'Synced', 
+            'about': 'A web app that matches your music preferences with new songs',
+            'year': '2025',
+            'image': 'test'
+        },
+        {
+            'id': 4, 
+            'name': 'Video Semantic Search', 
+            'about': 'A tool that allows you to search for videos based on content',
+            'year': '2025',
+            'image': 'test'
+        },
+    ] 
+    return jsonify(collab)
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5001, debug=True)
